@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/clever-cc-plugins/.github/main/assets/logo.svg" width="420" alt="clever [cc] plugins" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/clever-cc-plugins/.github/main/assets/logo-dark.svg" />
+    <img src="https://raw.githubusercontent.com/clever-cc-plugins/.github/main/assets/logo.svg" width="420" alt="clever [cc] plugins" />
+  </picture>
 </p>
 
 <p align="center">
