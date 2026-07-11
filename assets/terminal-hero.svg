@@ -1,0 +1,23 @@
+<svg width="960" height="320" viewBox="0 0 960 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Terminal session: /plugin marketplace add clever-cc-plugins/marketplace, then /plugin install cc-chime@clever-cc-plugins">
+  <defs>
+    <style>
+      .mono { font-family: ui-monospace, 'SF Mono', 'Cascadia Code', 'JetBrains Mono', Consolas, monospace; }
+    </style>
+  </defs>
+
+  <rect x="1" y="1" width="958" height="318" rx="10" fill="#15171C" stroke="#3A3D45" stroke-width="1"/>
+  <rect x="1" y="1" width="958" height="40" rx="10" fill="#1B1E24"/>
+  <rect x="1" y="31" width="958" height="10" fill="#1B1E24"/>
+  <text x="24" y="26" class="mono" font-size="13" fill="#7C818C">zsh — clever-cc-plugins</text>
+
+  <text x="28" y="90" class="mono" font-size="19" fill="#E8A33D">$ <tspan fill="#ECEAE3">/plugin marketplace add clever-cc-plugins/marketplace</tspan></text>
+  <text x="28" y="122" class="mono" font-size="17" fill="#7FB88A">✓ marketplace added · 3 plugins available</text>
+
+  <text x="28" y="172" class="mono" font-size="19" fill="#E8A33D">$ <tspan fill="#ECEAE3">/plugin install cc-chime@clever-cc-plugins</tspan></text>
+  <text x="28" y="204" class="mono" font-size="17" fill="#7FB88A">✓ cc-chime installed</text>
+
+  <text x="28" y="254" class="mono" font-size="19" fill="#E8A33D">$</text>
+  <rect x="46" y="240" width="11" height="20" fill="#E8A33D"/>
+
+  <text x="932" y="298" text-anchor="end" class="mono" font-size="13" fill="#4B4F58" letter-spacing="1">CLEVER-CC-PLUGINS</text>
+</svg>
