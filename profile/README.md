@@ -1,8 +1,5 @@
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/clever-cc-plugins/.github/main/assets/logotype-dark.svg" />
-    <img src="https://raw.githubusercontent.com/clever-cc-plugins/.github/main/assets/logotype-light.svg" height="72" alt="[cc]-plugins" />
-  </picture>
+  <img src="https://raw.githubusercontent.com/clever-cc-plugins/.github/main/assets/logo.svg" width="420" alt="clever [cc] plugins" />
 </p>
 
 <p align="center">
@@ -18,9 +15,9 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/plugins-3-83886F?style=flat-square&labelColor=1F2328" alt="3 plugins" />
-  <img src="https://img.shields.io/badge/skills-11-83886F?style=flat-square&labelColor=1F2328" alt="11 skills" />
-  <img src="https://img.shields.io/badge/license-MIT-5B5F66?style=flat-square" alt="MIT License" />
+  <img src="https://img.shields.io/badge/plugins-3-F97316?style=flat-square&labelColor=404040" alt="3 plugins" />
+  <img src="https://img.shields.io/badge/skills-11-F97316?style=flat-square&labelColor=404040" alt="11 skills" />
+  <img src="https://img.shields.io/badge/license-MIT-404040?style=flat-square" alt="MIT License" />
 </p>
 
 ---
@@ -29,11 +26,11 @@
 
 Each plugin lives in its own repo and ships through this marketplace. No plugin has a version number — they auto-update straight from `main`, per [Claude Code's own recommendation](https://code.claude.com/docs/en/plugins.md) for actively-iterated plugins.
 
-| Plugin                                                            | For                                                                                  | What it does                                                                                                                       |
-| ----------------------------------------------------------------- | ------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------- |
-| [**cc-config**](https://github.com/clever-cc-plugins/cc-config)   | ![for developers](https://img.shields.io/badge/-developers-C97C4B?style=flat-square) | Bootstrap and audit a best-practice Claude Code configuration — hardened permissions, formatter hooks, cost-optimization defaults. |
-| [**cc-content**](https://github.com/clever-cc-plugins/cc-content) | ![for marketers](https://img.shields.io/badge/-marketers-3E8E86?style=flat-square)   | A content studio in slash commands — brand onboarding, LinkedIn drafts, blog articles, sample curation, and more.                  |
-| [**cc-chime**](https://github.com/clever-cc-plugins/cc-chime)     | ![ambient](https://img.shields.io/badge/-ambient-6B6592?style=flat-square)           | Audio cues when Claude finishes a turn or needs your input. No commands — it just runs.                                            |
+| Plugin                                                            | For              | What it does                                                                                                                       |
+| ----------------------------------------------------------------- | ---------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| [**cc-config**](https://github.com/clever-cc-plugins/cc-config)   | _for developers_ | Bootstrap and audit a best-practice Claude Code configuration — hardened permissions, formatter hooks, cost-optimization defaults. |
+| [**cc-content**](https://github.com/clever-cc-plugins/cc-content) | _for marketers_  | A content studio in slash commands — brand onboarding, LinkedIn drafts, blog articles, sample curation, and more.                  |
+| [**cc-chime**](https://github.com/clever-cc-plugins/cc-chime)     | _ambient_        | Audio cues when Claude finishes a turn or needs your input. No commands — it just runs.                                            |
 
 - **cc-config** — `/cc-config-init` · `/cc-config-optimize`
 - **cc-content** — `/cc-content:cc-content-onboarding` · `/cc-content:cc-content-linkedin-post` · `/cc-content:cc-content-blog-article` · `/cc-content:cc-content-samples-curation` · `/cc-content:cc-content-session-wrap` · +4 more

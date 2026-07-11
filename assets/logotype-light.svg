@@ -1,8 +1,0 @@
-<svg width="600" height="100" viewBox="0 0 600 100" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="[cc]-plugins">
-  <defs>
-    <style>
-      .word { font-family: ui-monospace, 'SF Mono', 'Cascadia Code', 'JetBrains Mono', Consolas, monospace; font-weight: 700; font-size: 60px; }
-    </style>
-  </defs>
-  <text x="6" y="70" class="word" fill="#83886F">[cc]<tspan fill="#1F2328">-plugins</tspan></text>
-</svg>
