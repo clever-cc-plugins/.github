@@ -19,7 +19,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/plugins-4-F97316?style=flat-square&labelColor=404040" alt="4 plugins" />
-  <img src="https://img.shields.io/badge/skills-13-F97316?style=flat-square&labelColor=404040" alt="13 skills" />
+  <img src="https://img.shields.io/badge/skills-14-F97316?style=flat-square&labelColor=404040" alt="14 skills" />
   <img src="https://img.shields.io/badge/license-MIT-404040?style=flat-square" alt="MIT License" />
 </p>
 
@@ -37,7 +37,7 @@ Each plugin lives in its own repo and ships through this marketplace. No plugin 
 | [**cc-chime**](https://github.com/clever-cc-plugins/cc-chime)     | _ambient_        | Audio cues when Claude finishes a turn or needs your input. No commands — it just runs.                                            |
 
 - **cc-config** — `/cc-config-init` · `/cc-config-optimize`
-- **cc-content** — `/cc-content:cc-content-onboarding` · `/cc-content:cc-content-linkedin-post` · `/cc-content:cc-content-blog-article` · `/cc-content:cc-content-samples-curation` · `/cc-content:cc-content-session-wrap` · +4 more
+- **cc-content** — `/cc-content:cc-content-onboarding` · `/cc-content:cc-content-linkedin-post` · `/cc-content:cc-content-blog-article` · `/cc-content:cc-content-samples-curation` · `/cc-content:cc-content-session-wrap` · +5 more
 - **cc-handoff** — `/handoff` · `/handoff-install`
 - **cc-chime** — runs automatically on the `Stop` and `Notification` hooks, no commands to invoke
 
