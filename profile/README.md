@@ -19,7 +19,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/plugins-5-F97316?style=flat-square&labelColor=404040" alt="5 plugins" />
-  <img src="https://img.shields.io/badge/skills-16-F97316?style=flat-square&labelColor=404040" alt="16 skills" />
+  <img src="https://img.shields.io/badge/skills-22-F97316?style=flat-square&labelColor=404040" alt="22 skills" />
   <img src="https://img.shields.io/badge/license-MIT-404040?style=flat-square" alt="MIT License" />
 </p>
 
@@ -29,16 +29,16 @@
 
 Each plugin lives in its own repo and ships through this marketplace. No plugin has a version number — they auto-update straight from `main`, per [Claude Code's own recommendation](https://code.claude.com/docs/en/plugins.md) for actively-iterated plugins.
 
-| Plugin                                                            | For              | What it does                                                                                                                       |
-| ----------------------------------------------------------------- | ---------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| [**cc-config**](https://github.com/clever-cc-plugins/cc-config)   | _for developers_ | Bootstrap and audit a best-practice Claude Code configuration — hardened permissions, formatter hooks, cost-optimization defaults. |
-| [**cc-concept**](https://github.com/clever-cc-plugins/cc-concept) | _for marketers_  | The strategic frame before the content — positioning and go-to-market that `cc-content` skills then execute against.               |
-| [**cc-content**](https://github.com/clever-cc-plugins/cc-content) | _for marketers_  | A content studio in slash commands — brand onboarding, LinkedIn drafts, blog articles, sample curation, and more.                  |
-| [**cc-handoff**](https://github.com/clever-cc-plugins/cc-handoff) | _for developers_ | Hand work off between machines or sessions — writes a `HANDOFF.md` snapshot and wires the pickup convention into `CLAUDE.md`.      |
-| [**cc-chime**](https://github.com/clever-cc-plugins/cc-chime)     | _ambient_        | Audio cues when Claude finishes a turn or needs your input. No commands — it just runs.                                            |
+| Plugin                                                            | For              | What it does                                                                                                                                                                 |
+| ----------------------------------------------------------------- | ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [**cc-config**](https://github.com/clever-cc-plugins/cc-config)   | _for developers_ | Bootstrap and audit a best-practice Claude Code configuration — hardened permissions, formatter hooks, cost-optimization defaults.                                           |
+| [**cc-concept**](https://github.com/clever-cc-plugins/cc-concept) | _for marketers_  | The strategic frame before the content — positioning, campaign concepts, channel strategy, content strategy, and go-to-market that `cc-content` skills then execute against. |
+| [**cc-content**](https://github.com/clever-cc-plugins/cc-content) | _for marketers_  | A content studio in slash commands — brand onboarding, LinkedIn drafts, blog articles, sample curation, and more.                                                            |
+| [**cc-handoff**](https://github.com/clever-cc-plugins/cc-handoff) | _for developers_ | Hand work off between machines or sessions — writes a `HANDOFF.md` snapshot and wires the pickup convention into `CLAUDE.md`.                                                |
+| [**cc-chime**](https://github.com/clever-cc-plugins/cc-chime)     | _ambient_        | Audio cues when Claude finishes a turn or needs your input. No commands — it just runs.                                                                                      |
 
 - **cc-config** — `/cc-config-init` · `/cc-config-optimize`
-- **cc-concept** — `/cc-concept-onboarding` · `/cc-concept-positioning`
+- **cc-concept** — `/cc-concept-onboarding` · `/cc-concept-positioning` · `/cc-concept-campaign-concept` · `/cc-concept-gtm` · +4 more
 - **cc-content** — `/cc-content-onboarding` · `/cc-content-linkedin-post` · `/cc-content-blog-article` · `/cc-content-samples-curation` · `/cc-content-session-wrap` · +5 more
 - **cc-handoff** — `/handoff` · `/handoff-install`
 - **cc-chime** — runs automatically on the `Stop` and `Notification` hooks, no commands to invoke
