@@ -19,7 +19,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/plugins-5-F97316?style=flat-square&labelColor=404040" alt="5 plugins" />
-  <img src="https://img.shields.io/badge/skills-34-F97316?style=flat-square&labelColor=404040" alt="34 skills" />
+  <img src="https://img.shields.io/badge/skills-35-F97316?style=flat-square&labelColor=404040" alt="35 skills" />
   <img src="https://img.shields.io/badge/license-MIT-404040?style=flat-square" alt="MIT License" />
 </p>
 
@@ -37,10 +37,10 @@ Each plugin lives in its own repo and ships through this marketplace. No plugin 
 | [**cc-handoff**](https://github.com/clever-cc-plugins/cc-handoff) | _for developers_ | Hand work off between machines or sessions — writes a `HANDOFF.md` snapshot and wires the pickup convention into `CLAUDE.md`.                                                |
 | [**cc-chime**](https://github.com/clever-cc-plugins/cc-chime)     | _ambient_        | Audio cues when Claude finishes a turn or needs your input. No commands — it just runs.                                                                                      |
 
-- **cc-config** — `/cc-config:bootstrapping-config` · `/cc-config:auditing-config`
-- **cc-concept** — `/cc-concept:strategy-onboarding` · `/cc-concept:positioning` · `/cc-concept:campaign-concept` · `/cc-concept:gtm-plan` · +9 more
-- **cc-content** — `/cc-content:content-onboarding` · `/cc-content:linkedin-post` · `/cc-content:blog-article` · `/cc-content:samples-curation` · `/cc-content:session-wrap` · +12 more
-- **cc-handoff** — `/cc-handoff:handoff` · `/cc-handoff:handoff-install`
+- **cc-config** — `/bootstrapping-config` · `/auditing-config`
+- **cc-concept** — `/strategy-onboarding` · `/positioning` · `/campaign-concept` · `/gtm-plan` · +9 more
+- **cc-content** — `/content-onboarding` · `/linkedin-post` · `/blog-article` · `/samples-curation` · `/session-wrap` · +13 more
+- **cc-handoff** — `/handoff` · `/handoff-install`
 - **cc-chime** — runs automatically on the `Stop` and `Notification` hooks, no commands to invoke
 
 ## Principles
