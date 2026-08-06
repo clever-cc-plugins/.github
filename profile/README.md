@@ -19,7 +19,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/plugins-5-F97316?style=flat-square&labelColor=404040" alt="5 plugins" />
-  <img src="https://img.shields.io/badge/skills-36-F97316?style=flat-square&labelColor=404040" alt="36 skills" />
+  <img src="https://img.shields.io/badge/skills-37-F97316?style=flat-square&labelColor=404040" alt="37 skills" />
   <img src="https://img.shields.io/badge/license-MIT-404040?style=flat-square" alt="MIT License" />
 </p>
 
@@ -39,7 +39,7 @@ Each plugin lives in its own repo and ships through this marketplace. No plugin 
 
 - **cc-config** — `/cc-config:bootstrapping-config` · `/cc-config:auditing-config`
 - **cc-concept** — `/cc-concept:strategy-onboarding` · `/cc-concept:positioning` · `/cc-concept:campaign-concept` · `/cc-concept:gtm-plan` · +9 more
-- **cc-content** — `/cc-content:content-onboarding` · `/cc-content:linkedin-post` · `/cc-content:blog-article` · `/cc-content:samples-curation` · `/cc-content:session-wrap` · +14 more
+- **cc-content** — `/cc-content:content-onboarding` · `/cc-content:linkedin-post` · `/cc-content:blog-article` · `/cc-content:samples-curation` · `/cc-content:session-wrap` · +15 more
 - **cc-handoff** — `/cc-handoff:handoff` · `/cc-handoff:handoff-install`
 - **cc-chime** — runs automatically on the `Stop` and `Notification` hooks, no commands to invoke
 
