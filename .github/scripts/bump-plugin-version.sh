@@ -93,7 +93,7 @@ main() {
   local last_tag plugin_json current_version bump new_version hash subject body
   local -a bumps=()
 
-  if ! last_tag="$(git describe --tags --abbrev=0 2>/dev/null)"; then
+  if ! last_tag="$(git describe --tags --abbrev=0 --match 'v[0-9]*' 2>/dev/null)"; then
     echo "No baseline tag found; skipping until the bootstrap tag exists."
     write_output "bump" "none"
     exit 0
