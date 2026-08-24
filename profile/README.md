@@ -18,8 +18,8 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/plugins-5-F97316?style=flat-square&labelColor=404040" alt="5 plugins" />
-  <img src="https://img.shields.io/badge/skills-37-F97316?style=flat-square&labelColor=404040" alt="37 skills" />
+  <img src="https://img.shields.io/badge/plugins-7-F97316?style=flat-square&labelColor=404040" alt="7 plugins" />
+  <img src="https://img.shields.io/badge/skills-47-F97316?style=flat-square&labelColor=404040" alt="47 skills" />
   <img src="https://img.shields.io/badge/license-MIT-404040?style=flat-square" alt="MIT License" />
 </p>
 
@@ -27,19 +27,23 @@
 
 ## Plugins
 
-Each plugin lives in its own repo and ships through this marketplace. No plugin has a version number — they auto-update straight from `main`, per [Claude Code's own recommendation](https://code.claude.com/docs/en/plugins.md) for actively-iterated plugins.
+Each plugin lives in its own repo and ships through this marketplace, versioned independently so Claude Code can detect and apply updates.
 
 | Plugin                                                            | For              | What it does                                                                                                                                                                 |
 | ----------------------------------------------------------------- | ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [**cc-config**](https://github.com/clever-cc-plugins/cc-config)   | _for developers_ | Bootstrap and audit a best-practice Claude Code configuration — hardened permissions, formatter hooks, cost-optimization defaults.                                           |
 | [**cc-concept**](https://github.com/clever-cc-plugins/cc-concept) | _for marketers_  | The strategic frame before the content — positioning, campaign concepts, channel strategy, content strategy, and go-to-market that `cc-content` skills then execute against. |
 | [**cc-content**](https://github.com/clever-cc-plugins/cc-content) | _for marketers_  | A content studio in slash commands — brand onboarding, LinkedIn drafts, blog articles, sample curation, and more.                                                            |
+| [**cc-career**](https://github.com/clever-cc-plugins/cc-career)   | _for you_        | The strategic frame before the coaching — career plan, uplevel roadmap, and personal-branding strategy that `cc-coach` skills coach against.                                 |
+| [**cc-coach**](https://github.com/clever-cc-plugins/cc-coach)     | _for you_        | Live coaching conversations across career, life, networking, and presentation domains — no plan required, richer when `cc-career` is installed.                              |
 | [**cc-handoff**](https://github.com/clever-cc-plugins/cc-handoff) | _for developers_ | Hand work off between machines or sessions — writes a `HANDOFF.md` snapshot and wires the pickup convention into `CLAUDE.md`.                                                |
 | [**cc-chime**](https://github.com/clever-cc-plugins/cc-chime)     | _ambient_        | Audio cues when Claude finishes a turn or needs your input. No commands — it just runs.                                                                                      |
 
 - **cc-config** — `/cc-config:bootstrapping-config` · `/cc-config:auditing-config`
 - **cc-concept** — `/cc-concept:strategy-onboarding` · `/cc-concept:positioning` · `/cc-concept:campaign-concept` · `/cc-concept:gtm-plan` · +9 more
 - **cc-content** — `/cc-content:content-onboarding` · `/cc-content:linkedin-post` · `/cc-content:blog-article` · `/cc-content:samples-curation` · `/cc-content:session-wrap` · +15 more
+- **cc-career** — `/cc-career:career-onboarding` · `/cc-career:career-plan` · `/cc-career:personal-branding-strategy` · `/cc-career:career-performance-review`
+- **cc-coach** — `/cc-coach:career-coach` · `/cc-coach:life-coach` · `/cc-coach:networking-coach` · `/cc-coach:presentation-coach` · +2 more
 - **cc-handoff** — `/cc-handoff:handoff` · `/cc-handoff:handoff-install`
 - **cc-chime** — runs automatically on the `Stop` and `Notification` hooks, no commands to invoke
 
@@ -50,7 +54,7 @@ What ties the family together, even though one plugin writes configs and another
 |     | Principle            | What it means in practice                                                                                                                                                                                                                          |
 | --- | -------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ✓   | Slim by default      | Every line of context costs tokens on every message. Minimum viable config is the goal, not the baseline.                                                                                                                                          |
-| ─   | One clear way in     | Four plugins ship `/slash` commands; one runs automatically via hooks. No hidden config files, no menu trees.                                                                                                                                      |
+| ─   | One clear way in     | Six plugins ship `/slash` commands; one runs automatically via hooks. No hidden config files, no menu trees.                                                                                                                                       |
 | ▸   | Tables, not graphics | Docs lean on tables, rules, and ✓ ✗ glyphs to communicate state — output that reads as proof, not decoration.                                                                                                                                      |
 | │   | Shared guardrails    | Every repo runs the same secret-scanning pre-commit hook and follows the same [repo guideline](https://github.com/clever-cc-plugins/marketplace/blob/main/docs/cc-plugin-repo-guideline.md) — one marketplace entry is the single source of truth. |
 
@@ -59,7 +63,7 @@ What ties the family together, even though one plugin writes configs and another
 ```
 # in any Claude Code project
 $ /plugin marketplace add clever-cc-plugins/marketplace
-✓ marketplace added · 5 plugins available
+✓ marketplace added · 7 plugins available
 
 $ /plugin install cc-config@clever-cc-plugins
 ✓ cc-config installed
