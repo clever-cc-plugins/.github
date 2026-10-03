@@ -1,12 +1,12 @@
 # Plugin icons
 
-Source SVGs for each plugin's `plugins/<name>/.claude-plugin/icon.png`. Every icon uses the same template, derived from the `[ ]` brackets in [`logo.svg`](../logo.svg):
+Source SVGs for each plugin's `plugins/<name>/.claude-plugin/icon.png`. Every icon uses the same template, derived from the light-mode [`logo.svg`](../logo.svg) and the org avatar:
 
 | Element    | Value                                                                                                     |
 | ---------- | --------------------------------------------------------------------------------------------------------- |
-| Canvas     | 1024×1024, full-bleed `#171717` (neutral-900, the dark logo background)                                   |
-| Frame      | `[ ]` brackets in `#D4D4D4` (neutral-300): x 132–892, y 192–832, stroke 92, arms 214 long × 84 thick      |
-| Glyph      | One plugin-specific shape in `#F97316` (orange-500), secondary detail in `#FDBA74` (orange-300)           |
+| Canvas     | 1024×1024, full-bleed `#FFEDD5` (orange-100, the avatar background)                                       |
+| Frame      | `[ ]` brackets in `#404040` (neutral-700): x 132–892, y 192–832, stroke 92, arms 214 long × 84 thick      |
+| Glyph      | One plugin-specific shape in `#F97316` (orange-500), secondary detail in `#7C2D12` (orange-900)           |
 | Glyph area | 380×380 box at 322–702, scaled ×1.053 around the center so it keeps clear of the bracket arms at 24–32 px |
 
 | Plugin     | Glyph                    |
