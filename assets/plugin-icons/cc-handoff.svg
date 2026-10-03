@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img"><title>cc-handoff icon</title><rect width="1024" height="1024" fill="#FFEDD5"/><path fill="#404040" d="M132 192H346V276H224V748H346V832H132Z M892 192H678V276H800V748H678V832H892Z"/><g transform="translate(512 512) scale(1.053) translate(-512 -512)">
+    <path fill="#F97316" d="M342 322H522L612 412V702H342Z"/>
+    <path fill="#7C2D12" d="M522 322V412H612Z"/>
+    <path fill="#7C2D12" stroke="#FFEDD5" stroke-width="22" stroke-linejoin="miter" d="M452 566H582V496L702 606L582 716V646H452Z"/></g></svg>
