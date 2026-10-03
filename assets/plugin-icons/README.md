@@ -22,6 +22,8 @@ Source SVGs for each plugin's `plugins/<name>/.claude-plugin/icon.png`. Every ic
 Each plugin repo carries two copies:
 
 - `plugins/<name>/.claude-plugin/icon.png`: the 1024×1024 opaque RGB PNG that ships with the plugin. The plugin directory picks it up by convention, so no `plugin.json` key is needed.
-- `assets/icon.svg`: a copy of the SVG for READMEs and docs, kept outside `plugins/` so it doesn't ship with the plugin.
+- `assets/icon.svg`: a copy of the SVG for READMEs and docs, kept outside `plugins/` so it doesn't ship with the plugin. Each plugin README shows it right-aligned next to the `# <name>` heading.
+
+The org profile ([`profile/README.md`](../../profile/README.md)) and the [marketplace README](https://github.com/clever-cc-plugins/marketplace#available-plugins) link the SVGs in this folder by raw URL in their plugin tables, so keep the file names stable.
 
 To add a plugin: copy any SVG, replace the glyph group, put the SVG here and in the plugin repo's `assets/icon.svg`, and export the PNG. Check it at 32 px before committing. When you change an SVG here, update both copies in the plugin repo.
