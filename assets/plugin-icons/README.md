@@ -19,4 +19,9 @@ Source SVGs for each plugin's `plugins/<name>/.claude-plugin/icon.png`. Every ic
 | cc-handoff | Page with outgoing arrow |
 | cc-chime   | Bell                     |
 
-To add a plugin: copy any SVG, replace the glyph group, and export a 1024×1024 opaque RGB PNG to `.claude-plugin/icon.png` in the plugin repo (the plugin directory picks it up by convention, no `plugin.json` key needed). Check it at 32 px before committing.
+Each plugin repo carries two copies:
+
+- `plugins/<name>/.claude-plugin/icon.png`: the 1024×1024 opaque RGB PNG that ships with the plugin. The plugin directory picks it up by convention, so no `plugin.json` key is needed.
+- `assets/icon.svg`: a copy of the SVG for READMEs and docs, kept outside `plugins/` so it doesn't ship with the plugin.
+
+To add a plugin: copy any SVG, replace the glyph group, put the SVG here and in the plugin repo's `assets/icon.svg`, and export the PNG. Check it at 32 px before committing. When you change an SVG here, update both copies in the plugin repo.
