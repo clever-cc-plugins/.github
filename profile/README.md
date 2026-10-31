@@ -19,7 +19,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/plugins-7-F97316?style=flat-square&labelColor=404040" alt="7 plugins" />
-  <img src="https://img.shields.io/badge/skills-48-F97316?style=flat-square&labelColor=404040" alt="48 skills" />
+  <img src="https://img.shields.io/badge/skills-49-F97316?style=flat-square&labelColor=404040" alt="49 skills" />
   <img src="https://img.shields.io/badge/license-MIT-404040?style=flat-square" alt="MIT License" />
 </p>
 
@@ -41,7 +41,7 @@ Each plugin lives in its own repo and ships through this marketplace, versioned 
 
 - **cc-config** — `/cc-config:bootstrapping-config` · `/cc-config:auditing-config`
 - **cc-concept** — `/cc-concept:strategy-onboarding` · `/cc-concept:positioning` · `/cc-concept:campaign-concept` · `/cc-concept:gtm-plan` · +9 more
-- **cc-content** — `/cc-content:content-onboarding` · `/cc-content:linkedin-post` · `/cc-content:blog-article` · `/cc-content:samples-curation` · `/cc-content:session-wrap` · +15 more
+- **cc-content** — `/cc-content:content-onboarding` · `/cc-content:linkedin-post` · `/cc-content:blog-article` · `/cc-content:samples-curation` · `/cc-content:session-wrap` · +16 more
 - **cc-career** — `/cc-career:career-onboarding` · `/cc-career:career-plan` · `/cc-career:personal-branding-strategy` · `/cc-career:career-performance-review`
 - **cc-coach** — `/cc-coach:career-coach` · `/cc-coach:life-coach` · `/cc-coach:networking-coach` · `/cc-coach:presentation-coach` · +3 more
 - **cc-handoff** — `/cc-handoff:handoff` · `/cc-handoff:handoff-install`
