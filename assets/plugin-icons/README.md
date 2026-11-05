@@ -18,6 +18,7 @@ Source SVGs for each plugin's `plugins/<name>/.claude-plugin/icon.png`. Every ic
 | cc-coach   | Speech bubble            |
 | cc-handoff | Page with outgoing arrow |
 | cc-chime   | Bell                     |
+| cc-chef    | Chef's hat               |
 
 Each plugin repo carries two copies:
 

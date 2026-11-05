@@ -18,7 +18,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/plugins-7-F97316?style=flat-square&labelColor=404040" alt="7 plugins" />
+  <img src="https://img.shields.io/badge/plugins-8-F97316?style=flat-square&labelColor=404040" alt="8 plugins" />
   <img src="https://img.shields.io/badge/skills-49-F97316?style=flat-square&labelColor=404040" alt="49 skills" />
   <img src="https://img.shields.io/badge/license-MIT-404040?style=flat-square" alt="MIT License" />
 </p>
@@ -36,6 +36,7 @@ Each plugin lives in its own repo and ships through this marketplace, versioned 
 | <img src="https://raw.githubusercontent.com/clever-cc-plugins/.github/main/assets/plugin-icons/cc-content.svg" width="48" height="48" alt="" /><br />[**cc-content**](https://github.com/clever-cc-plugins/cc-content) | _for marketers_  | A content studio in slash commands — brand onboarding, LinkedIn drafts, blog articles, sample curation, and more.                                                            |
 | <img src="https://raw.githubusercontent.com/clever-cc-plugins/.github/main/assets/plugin-icons/cc-career.svg" width="48" height="48" alt="" /><br />[**cc-career**](https://github.com/clever-cc-plugins/cc-career)    | _for you_        | The strategic frame before the coaching — career plan, uplevel roadmap, and personal-branding strategy that `cc-coach` skills coach against.                                 |
 | <img src="https://raw.githubusercontent.com/clever-cc-plugins/.github/main/assets/plugin-icons/cc-coach.svg" width="48" height="48" alt="" /><br />[**cc-coach**](https://github.com/clever-cc-plugins/cc-coach)       | _for you_        | Live coaching conversations across career, life, networking, and presentation domains — no plan required, richer when `cc-career` is installed.                              |
+| <img src="https://raw.githubusercontent.com/clever-cc-plugins/.github/main/assets/plugin-icons/cc-chef.svg" width="48" height="48" alt="" /><br />[**cc-chef**](https://github.com/clever-cc-plugins/cc-chef)          | _for you_        | Grounded everyday recipes from a mood, your fridge or a dish name, plus reworking, personal dietary guidelines and export to recipe apps.                                    |
 | <img src="https://raw.githubusercontent.com/clever-cc-plugins/.github/main/assets/plugin-icons/cc-handoff.svg" width="48" height="48" alt="" /><br />[**cc-handoff**](https://github.com/clever-cc-plugins/cc-handoff) | _for developers_ | Hand work off between machines or sessions — writes a `HANDOFF.md` snapshot and wires the pickup convention into `CLAUDE.md`.                                                |
 | <img src="https://raw.githubusercontent.com/clever-cc-plugins/.github/main/assets/plugin-icons/cc-chime.svg" width="48" height="48" alt="" /><br />[**cc-chime**](https://github.com/clever-cc-plugins/cc-chime)       | _ambient_        | Audio cues when Claude finishes a turn or needs your input. No commands — it just runs.                                                                                      |
 
@@ -44,6 +45,7 @@ Each plugin lives in its own repo and ships through this marketplace, versioned 
 - **cc-content** — `/cc-content:content-onboarding` · `/cc-content:linkedin-post` · `/cc-content:blog-article` · `/cc-content:samples-curation` · `/cc-content:session-wrap` · +16 more
 - **cc-career** — `/cc-career:career-onboarding` · `/cc-career:career-plan` · `/cc-career:personal-branding-strategy` · `/cc-career:career-performance-review`
 - **cc-coach** — `/cc-coach:career-coach` · `/cc-coach:life-coach` · `/cc-coach:networking-coach` · `/cc-coach:presentation-coach` · +3 more
+- **cc-chef** — `/cc-chef:chef-onboarding` · `/cc-chef:create-recipe` · `/cc-chef:rework-recipe` · `/cc-chef:export-recipe` · +2 more
 - **cc-handoff** — `/cc-handoff:handoff` · `/cc-handoff:handoff-install`
 - **cc-chime** — runs automatically on the `Stop` and `Notification` hooks, no commands to invoke
 
@@ -63,7 +65,7 @@ What ties the family together, even though one plugin writes configs and another
 ```
 # in any Claude Code project
 $ /plugin marketplace add clever-cc-plugins/marketplace
-✓ marketplace added · 7 plugins available
+✓ marketplace added · 8 plugins available
 
 $ /plugin install cc-config@clever-cc-plugins
 ✓ cc-config installed
