@@ -19,7 +19,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/plugins-8-F97316?style=flat-square&labelColor=404040" alt="8 plugins" />
-  <img src="https://img.shields.io/badge/skills-49-F97316?style=flat-square&labelColor=404040" alt="49 skills" />
+  <img src="https://img.shields.io/badge/skills-56-F97316?style=flat-square&labelColor=404040" alt="56 skills" />
   <img src="https://img.shields.io/badge/license-MIT-404040?style=flat-square" alt="MIT License" />
 </p>
 
@@ -45,7 +45,7 @@ Each plugin lives in its own repo and ships through this marketplace, versioned 
 - **cc-content** — `/cc-content:content-onboarding` · `/cc-content:linkedin-post` · `/cc-content:blog-article` · `/cc-content:samples-curation` · `/cc-content:session-wrap` · +16 more
 - **cc-career** — `/cc-career:career-onboarding` · `/cc-career:career-plan` · `/cc-career:personal-branding-strategy` · `/cc-career:career-performance-review`
 - **cc-coach** — `/cc-coach:career-coach` · `/cc-coach:life-coach` · `/cc-coach:networking-coach` · `/cc-coach:presentation-coach` · +3 more
-- **cc-chef** — `/cc-chef:chef-onboarding` · `/cc-chef:create-recipe` · `/cc-chef:rework-recipe` · `/cc-chef:export-recipe` · +2 more
+- **cc-chef** — `/cc-chef:chef-onboarding` · `/cc-chef:create-recipe` · `/cc-chef:rework-recipe` · `/cc-chef:export-recipe` · +3 more
 - **cc-handoff** — `/cc-handoff:handoff` · `/cc-handoff:handoff-install`
 - **cc-chime** — runs automatically on the `Stop` and `Notification` hooks, no commands to invoke
 
@@ -56,7 +56,7 @@ What ties the family together, even though one plugin writes configs and another
 |     | Principle            | What it means in practice                                                                                                                                                                                                                          |
 | --- | -------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ✓   | Slim by default      | Every line of context costs tokens on every message. Minimum viable config is the goal, not the baseline.                                                                                                                                          |
-| ─   | One clear way in     | Six plugins ship `/slash` commands; one runs automatically via hooks. No hidden config files, no menu trees.                                                                                                                                       |
+| ─   | One clear way in     | Seven plugins ship `/slash` commands; one runs automatically via hooks. No hidden config files, no menu trees.                                                                                                                                     |
 | ▸   | Tables, not graphics | Docs lean on tables, rules, and ✓ ✗ glyphs to communicate state — output that reads as proof, not decoration.                                                                                                                                      |
 | │   | Shared guardrails    | Every repo runs the same secret-scanning pre-commit hook and follows the same [repo guideline](https://github.com/clever-cc-plugins/marketplace/blob/main/docs/cc-plugin-repo-guideline.md) — one marketplace entry is the single source of truth. |
 
