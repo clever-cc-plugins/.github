@@ -13,7 +13,6 @@
       "Bash(bash .github/scripts/test-bump-plugin-version.sh)",
       "Bash(chmod +x *)"
     ],
-    "ask": ["Bash(git push*)"],
     "deny": [
       "Read(./.env)",
       "Read(./.env.local)",
