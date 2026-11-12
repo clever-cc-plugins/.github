@@ -16,7 +16,7 @@ Org profile (`profile/README.md`), brand assets, and the shared `plugin-release`
 | `.github/scripts/bump-plugin-version.sh`     | Computes semver bump from commits since the last tag                 |
 | `CLAUDE.md`                                  | Project instructions, loaded every message                           |
 
-<!-- cc-config: last-optimize-run: 2026-11-05 57a17cd -->
+<!-- cc-config: last-optimize-run: 2026-11-12 13b8f87 -->
 
 ## Commands
 
@@ -37,8 +37,7 @@ Org profile (`profile/README.md`), brand assets, and the shared `plugin-release`
 
 ## Learnings
 
-When the user corrects a mistake or points out a recurring issue, append a one-line
-summary to `.claude/learnings.md`. Don't modify `CLAUDE.md` directly.
+When the user corrects a mistake or points out a recurring issue, record a one-line entry in .claude/learnings.md as `[claude:note] <observation> (corrected) — YYYY-MM-DD` (use `(stated)` when the user states a standing rule). If it contradicts an existing entry, replace that entry instead of adding a second one. Don't modify `CLAUDE.md` directly.
 
 ## Compact Instructions
 
